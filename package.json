@@ -1,9 +1,12 @@
 {
   "devDependencies": {
-    "vuepress": "^0.14.11"
+    "vuepress": "^1.0.0-alpha.47"
   },
   "scripts": {
-    "docs:dev": "npx vuepress dev docs",
-    "docs:build": "npx vuepress build docs"
+    "home:dev": "npx vuepress dev home",
+    "home:build": "npx vuepress build home"
+  },
+  "dependencies": {
+    "vuepress-theme-reco": "^1.0.0-alpha.19"
   }
 }
