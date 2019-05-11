@@ -6,9 +6,6 @@
 trigger:
 - master
 
-variables:
-  PAT: d52d5d964bf216fbf573fea0f558865fe139bec1
-
 pool:
   vmImage: 'ubuntu-latest'
 
@@ -20,5 +17,5 @@ steps:
 
 - script: |
     npm install
-    sh deploy.sh $(PAT)
+    sh deploy.sh
   displayName: 'npm install and build'
