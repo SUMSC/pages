@@ -17,5 +17,5 @@ steps:
 
 - script: |
     npm install
-    sh deploy.sh {GithbPAT}
+    sh deploy.sh $(GithbPAT)
   displayName: 'npm install and build'
