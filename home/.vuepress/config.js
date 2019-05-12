@@ -15,11 +15,11 @@ module.exports = {
                 text: "魔盒挑战",
                 items: [{
                         text: "第二期",
-                        link: "/pandora/1/"
+                        link: "/pandora/2/"
                     },
                     {
                         text: "第一期",
-                        link: "/pandora/2/"
+                        link: "/pandora/1/"
                     }
                 ],
                 icon: "reco-account"
