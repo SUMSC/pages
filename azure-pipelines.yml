@@ -38,6 +38,6 @@ steps:
     git init
     git add -A
     git commit -m 'deploy home'
-    git push -f 'https://$(amber-gitee-pat)@gitee.com/SUMSC/sumsc.git' master # 发布到 https://sumsc.gitee.io
+    git push -f 'https://wzhzzmzzy:$(amber-gitee-pat)@gitee.com/SUMSC/sumsc.git' master # 发布到 https://sumsc.gitee.io
   displayName: 'npm install and build and push to Gitee'
  
