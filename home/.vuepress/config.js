@@ -35,14 +35,16 @@ module.exports = {
                 icon: "reco-github"
             },
         ],
-        startYear: '2017'
+        record: '苏ICP备17074773号-1',
+        startYear: '2017',
     },
     head: [
         // 移动端优化
-        ['meta', { 
+        ['meta', {
             name: 'viewport', 
             content: 'width=device-width,initial-scale=1,user-scalable=no' 
-        }]
+        }],
+        ['link', { rel: 'favicon', type: "image/x-icon", href: `./favicon.ico` }]
     ],
     // 这里是 Vuepress 开发配置
     port: 8080,
