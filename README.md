@@ -1,5 +1,7 @@
 # SUMSC Documents Page
 
+[![Build Status](https://dev.azure.com/SUMSC/SUMSC%20Pages/_apis/build/status/SUMSC.pages?branchName=master)](https://dev.azure.com/SUMSC/SUMSC%20Pages/_build/latest?definitionId=1&branchName=master)
+
 SUMSC.github.io构建源码仓库。本项目使用 [Vuepress 1.x](https://v1.vuepress.vuejs.org/zh/) 构建。
 
 ## 起步
