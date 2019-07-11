@@ -37,6 +37,7 @@ module.exports = {
         ],
         record: '苏ICP备17074773号-1',
         startYear: '2017',
+        huawei: false
     },
     head: [
         // 移动端优化
